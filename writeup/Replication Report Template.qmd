@@ -24,7 +24,7 @@ My research background is primarily qualitative and theory-focused and I began c
 
 ### Power Analysis
 
-I conducted simulation-based power analysis usign the original data and fitted linear mixed-effects models with an unadjusted significance threshold of ⍺ = 0.05. My primary interest is the main effect of plausibility at Spill3, where the original estimated effect was β = 0.04649 on the log reading-time scale. Estimated power was 95% with 40 participants (95% Monte Carlo CI [88.72%, 98.36%]; 100 simulations), exceeding the 70% and 90% targets and reaching the 95% target in the point estimate. I also examined the plausibility effect at Spill2 (β - 0.04954), where estimated power was lower. Based on 1000 simulations per sample size, estimated power was 82.5% with 48 participants, 84.9% with 52 participants, and approximately 89% with 60 participants. With 104 participants, estimated power was 96% although this estimate was based on only 100 simulations. These results suggest that Spill2 requires a larger sample than Spill3 to detect the original estimated effect.
+I conducted simulation-based power analysis using the original data and fitted linear mixed-effects models with an unadjusted significance threshold of ⍺ = 0.05. My primary interest is the main effect of plausibility at Spill3, where the original estimated effect was β = 0.04649 on the log reading-time scale. Estimated power was 95% with 40 participants (95% Monte Carlo CI [88.72%, 98.36%]; 100 simulations), exceeding the 70% and 90% targets and reaching the 95% target in the point estimate. I also examined the plausibility effect at Spill2 (β - 0.04954), where estimated power was lower. Based on 1000 simulations per sample size, estimated power was 82.5% with 48 participants, 84.9% with 52 participants, and approximately 89% with 60 participants. With 104 participants, estimated power was 96% although this estimate was based on only 100 simulations. These results suggest that Spill2 requires a larger sample than Spill3 to detect the original estimated effect.
 
 ### Planned Sample
 
@@ -52,10 +52,14 @@ The procedure described above will be followed in the replication.
 
 
 ### Analysis Plan
-
 Based on the original findings, the primary outcome will be the main effect of plausibility at the third spillover region (Spill3) with the corresponding effect at Spill2 examined as an additional outcome. To assess contextual modulation, the context x plausibility interaction at Spill5 will be examined as a secondary outcome and its estimate and confidence interval will be reported. Spill5 is always the sentence-final word, where sentence wrap-up processes may encourage readers to integrate the sentence with the broader discourse context. These outcomes distinguish the early influence of real-world plausibility from later changes in its influence across contexts.
 
 For the analysis, I will follow the original study by starting with the maximal random-effects structure. If convergence issues arise, I will simplify the structure using a prespecified sequence and document any changes.
+
+# Data Preparation and Exclusion Rate
+Following the original study, I will exclude participants whose overall accuracy on comprehension question is below 80% or whose proportion of outlier reading time exceeds 30%. Based on the original study's overall exclusion rate, I expect to have 52 participants as my final sample.
+
+Data analysis will be performed over six regions of interest separately: one critical region and five spillover regions. First, I will remove the response times for the comprehension questions below 100 ms or above 5,000 ms as 100 ms is too short to make the decision for the question and 5,000 ms is considered too long than required. For the reading times, I will prune those that are over 2.5 SDs from the grand mean. Data within the range will be included in the analysis, regardless of the accuracy on comprehension questions. 
 
 ### Differences from Original Study
 

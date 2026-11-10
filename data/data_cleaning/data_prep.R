@@ -142,7 +142,7 @@ grand_mean <- mean(rt_bounded$rt_ms)
 grand_sd <- sd(rt_bounded$rt_ms)
 
 rt_prepared <- rt_bounded |>
-  filter(between(rt_ms, grand_mean - 2.5 * grand_sd, grand_mean + 2 * grand_sd))
+  filter(between(rt_ms, grand_mean - 2.5 * grand_sd, grand_mean + 2.5 * grand_sd))
 
 trimming_summary <- tibble(
   eligible_sessions = length(eligible_session_ids),
